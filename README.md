@@ -9,7 +9,7 @@ This project implements an anomaly detection system that monitors simulated temp
 ## Features
 
 - **Simulated Data Stream**: Generates temperature readings influenced by sinusoidal seasonal changes, random noise, and normally distributed values.
-- **Anomaly Detection**: Utilizes the z-score method to detect anomalies in the temperature data stream.
+- **Anomaly Detection**: The Z-score method detects anomalies in temperature data streams by quantifying how far each data point deviates from the mean in terms of standard deviations. By identifying Z-scores above a specified threshold (typically between 2 and 3), this method effectively flags outliers. The Z-score assumes a normal distribution, making it most effective for datasets that adhere to this characteristic. Its straightforward implementation requires no external libraries, making it an ideal choice for this project.
 - **Dynamic Visualization**: Visualizes the temperature readings and anomalies in real-time using Matplotlib. Red points represent an anomaly within the data series.
 
 ## Requirements
