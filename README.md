@@ -38,6 +38,25 @@ This project implements an anomaly detection system that monitors simulated temp
    pip install numpy matplotlib
    ```
 
+## Docker Support
+
+A `Dockerfile` has been added to facilitate easy deployment of the application in a containerized environment. To build and run the application using Docker, follow these steps:
+
+1. **Build the Docker image**:
+
+   ```bash
+   docker build -t anomaly-detector .
+   ```
+
+2. **Run the Docker container**:
+
+   ```bash
+   docker run --rm anomaly-detector
+   ```
+
+This setup allows for a consistent environment and simplifies the deployment process across different systems.
+
+
 ## Configuration
 
 The configuration parameters can be adjusted in the `config.py` file:
