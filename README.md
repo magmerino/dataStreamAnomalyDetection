@@ -1,5 +1,3 @@
-# dataStreamAnomalyDetection
-
 # Anomaly Detection in Temperature Data
 
 ![Screenshot 2024-10-25 185746](https://github.com/user-attachments/assets/ff4a2d9a-ae48-49f8-be6c-bab8f45ba0d1)
