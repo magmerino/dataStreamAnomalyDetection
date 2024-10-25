@@ -1,0 +1,32 @@
+MAX_NUMBER_OF_VALUES=365
+
+# ------------------------------------------
+
+"""
+ANOMALY DETECTOR
+"""
+WINDOW_SIZE=30
+THRESHOLD=2.3
+
+# ------------------------------------------
+
+"""
+DATA STREAM
+
+"""
+AVERAGE_TEMPERATURE=19
+TEMPERATURE_DEVIATION=1.5
+NOISE_DEVIATION=1
+SIN_AMPLITUDE=18
+DELAY=0.01
+
+# ------------------------------------------
+
+"""
+VISUALIZATION
+"""
+PLOT_POINT_SIZE=10
+Y_AXIS_MAX_VALUE=60
+Y_AXIS_MIN_VALUE=0
+X_AXIS_LABEL="DAYS"
+Y_AXIS_LABEL="TEMPERATURE (ºC)"
